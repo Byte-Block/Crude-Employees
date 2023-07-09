@@ -1,0 +1,43 @@
+.table_wrapper {
+  width: 100%;
+}
+
+.table {
+  display: block;
+  overflow: hidden;
+  table-layout: fixed;
+  border-collapse: collapse;
+  box-shadow: 0px 10px 10px #ccc;
+  border-radius: 10px;
+  white-space: nowrap;
+  width: 1180px;
+  margin: auto;
+  table-layout: auto;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+.table thead {
+  background-color: #179c05;
+  color: #222;
+}
+
+.table th,
+.table td {
+  padding: 0.8rem;
+  width: 20%;
+}
+
+.table td {
+  border-top: 0.5px solid #ddd;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table tbody tr:hover {
+  background-color: #eee;
+}
+
+.expand {
+    width: 100%;
+  }
